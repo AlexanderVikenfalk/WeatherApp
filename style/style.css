@@ -1,17 +1,30 @@
-td, th {
-    text-align: center !important;
-    vertical-align: middle !important;
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #6CB9C8 !important;
 }
 
 svg {
-    height: 150px;
+  height: 150px;
 }
-
-.input-group {
-    margin: 20px 0;
+.weatherCard {
+  align-self: center;
+  justify-self: center;
+  padding: 10%;
+  align-content: center;
+  text-align: center;
 }
-
-td:first-of-type, td:first-of-type > div {
-    height: 200px;
-    width: 205px;
+.weatherCard .card {
+    align-self: center;
+  background-color: black;
+  color: white;
+  display: inline-block;
+  border: none;
+  height: 65vh;
+  width: 45%;
+  border-radius: 5px;
+  -webkit-box-shadow: 2px 5px 82px -16px rgba(0,0,0,1);
+  -moz-box-shadow: 2px 5px 82px -16px rgba(0,0,0,1);
+  box-shadow: 2px 5px 82px -16px rgba(0,0,0,1);
 }

@@ -1,13 +1,13 @@
 import React, { Component } from "react";
-import SearchBar from "../containers/searchBar";
-import WeatherList from "../containers/weatherList";
+import CurrentWeather from '../containers/currentWeather'
+// import SearchBar from "../containers/searchBar";
+// import WeatherList from "../containers/weatherList";
 
 export default class App extends Component {
   render() {
     return (
       <div>
-        <SearchBar />
-        <WeatherList />
+        <CurrentWeather />
       </div>
     );
   }

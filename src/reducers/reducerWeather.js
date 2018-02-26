@@ -1,10 +1,12 @@
 import { FETCH_WEATHER } from "../actions/index";
-
-export default function(state = [], action) {
-  console.log("Action received", action);
+const initalState = {
+  list:[],
+  selectedWeather:null
+}
+export default function(state = initalState, action) {
   switch (action.type) {
     case FETCH_WEATHER:
-      return [action.payload.data, ...state];
+      return {...state,selectedWeather:action.payload.data};
   }
   return state;
 }

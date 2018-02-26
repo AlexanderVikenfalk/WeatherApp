@@ -10,8 +10,6 @@ class GoogleMap extends Component {
         lng: this.props.lon
       }
     });
-    console.log("lat"+this.props.lat)
-    console.log("lng"+this.props.lon)
   }
   render() {
     // return (<div ref='map' />)
