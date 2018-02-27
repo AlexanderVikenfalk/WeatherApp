@@ -20,7 +20,7 @@ with React.js/ Redux that utilizes the [OpenWeatherMapAPI](https://openweatherma
 ```
 
 #### Screenshots ####
-![Screenshot](![weatherapp](https://user-images.githubusercontent.com/16190870/36734726-aa468c62-1bd4-11e8-8554-a463c47c99a2.PNG))
+![Screenshot](https://user-images.githubusercontent.com/16190870/36734726-aa468c62-1bd4-11e8-8554-a463c47c99a2.PNG)
 
 ### Get in contact with me ###
 [LinkedIn](https://de.linkedin.com/in/alexander-vikenfalk-6b993b42)
