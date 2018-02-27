@@ -1,13 +1,25 @@
+@font-face {
+  font-family: neoterique;
+  src: url("../../resources/fonts/neoterique.ttf");
+}
+:root{
+ --main-text-color:   rgba(255, 255, 255, 0.8);
+}
+
 html,
 body {
   height: 100%;
   width: 100%;
-  background-color: #6CB9C8 !important;
+  background-color: #001321 !important;
 }
 
-svg {
-  height: 150px;
+ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
 }
+
 .weatherCard {
   align-self: center;
   justify-self: center;
@@ -15,16 +27,67 @@ svg {
   align-content: center;
   text-align: center;
 }
+
 .weatherCard .card {
-    align-self: center;
-  background-color: black;
+  align-self: center;
+  /* background: repeating-linear-gradient(#1f0c2a, #1f0c2a 20px, #166F6A 10px, #166F6A 25px); */
+  /* background: #58a; */
+  /* background: repeating-linear-gradient(00deg, rgba(#000, .5), rgba(#FFF, .5) 10px, transparent 10px, transparent 20px);  */
+  background-color: #1f0c2a;
   color: white;
   display: inline-block;
   border: none;
   height: 65vh;
   width: 45%;
   border-radius: 5px;
-  -webkit-box-shadow: 2px 5px 82px -16px rgba(0,0,0,1);
-  -moz-box-shadow: 2px 5px 82px -16px rgba(0,0,0,1);
-  box-shadow: 2px 5px 82px -16px rgba(0,0,0,1);
+  -webkit-box-shadow: 1px 2px 32px 2px rgba(24, 47, 63,1);
+  -moz-box-shadow: 1px 2px 32px 2px rgba(24, 47, 63,1);
+  box-shadow: 1px 2px 32px 2px rgba(24, 47, 63,1);
+  padding: 2%;
+}
+
+.scanLines {
+  /*** WEBKIT ***/
+  background: -webkit-repeating-linear-gradient(
+    top,
+    transparent 0px,
+    transparent 1px,
+    rgba(0, 0, 0, 0.5) 1px,
+    rgba(0, 0, 0, 0.5) 3px
+  );
+  -webkit-background-size: 100% 4px;
+  /** MOZILLA **/
+  background: -moz-repeating-linear-gradient(
+    top,
+    transparent 0px,
+    transparent 1px,
+    rgba(0, 0, 0, 0.5) 1px,
+    rgba(0, 0, 0, 0.5) 2px
+  );
+  -moz-background-size: 100% 4px;
+  z-index: 10;
+}
+
+.weatherCard .weatherContainer {
+  height: 100%;
+  width: 100%;
+}
+
+.card img {
+  height: 150px;
+  width: 150px;
+}
+
+.card h1 {
+  font-family: neoterique;
+  color: var(--main-text-color);
+  margin-top: 2%;
+}
+.card li {
+  display: inline;
+  color: var(--main-text-color);
+}
+.card li img {
+  height: 50px;
+  width: 50px;
 }

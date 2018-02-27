@@ -1,8 +1,8 @@
 #### Author: Alexander Vikenfalk
 
 #### About this project: 
-Just a code along based on the course: [modern react with redux](https://www.udemy.com/react-redux/learn/v4/overview "modern react with redux"). It's web app built
-with React.js/ Redux that utilizes the [OpenWeatherMapAPI](https://openweathermap.org/api/ "Open Weather Map API"). Type in an American city and press enter or click submit and watch the graphs for Temperature, Pressure and Humidity.
+Vaguely based on [modern react with redux](https://www.udemy.com/react-redux/learn/v4/overview "modern react with redux"). It's web app built
+with React.js/ Redux that utilizes the [OpenWeatherMapAPI](https://openweathermap.org/api/ "Open Weather Map API"). The app will show weather values for your current location.
 
 #### Technologies used: 
 * **React.js** for making the nice UI.
@@ -18,10 +18,7 @@ with React.js/ Redux that utilizes the [OpenWeatherMapAPI](https://openweatherma
 5. go to: http://localhost:8080/webpack-dev-server/
 
 #### Screenshots ####
-![Screenshot](https://media.giphy.com/media/1Rksh9riJchLvfeZY6/giphy.gif)
-
-#### Other Remarks ####
-Cities are limitied to U.S.A since I've hardcoded it in the request. Sorry. 
+![Screenshot](![weatherapp](https://user-images.githubusercontent.com/16190870/36734726-aa468c62-1bd4-11e8-8554-a463c47c99a2.PNG))
 
 ### Get in contact with me ###
 [LinkedIn](https://de.linkedin.com/in/alexander-vikenfalk-6b993b42)
