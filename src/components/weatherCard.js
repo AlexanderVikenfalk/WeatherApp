@@ -35,13 +35,20 @@ export default class WeatherCard extends Component {
     }
   }
 
+  renderTemperature(){
+    if (this.props.weather) {
+      const temp = this.props.weather.main.temp;
+      return  <h1>{temp} c</h1>
+  }
+}
+
   render() {
     console.log(this.props);
     // const WeatherMain = if (props.props.weather[0].main === 'snow') return (<div> snow </div>) else return (<div>not snow</div>)
     return (
       <div className="weatherCard">
         <div className="card scanLines">
-    {this.renderWeatherSpecifics()}{this.renderWeatherMain()} {this.renderCity()}
+    {this.renderWeatherSpecifics()}{this.renderWeatherMain()} {this.renderCity()}{this.renderTemperature()}
         </div>
       </div>
     );

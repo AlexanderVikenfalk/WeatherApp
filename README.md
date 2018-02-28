@@ -11,13 +11,11 @@ with React.js/ Redux that utilizes the [OpenWeatherMapAPI](https://openweatherma
 * **CSS 3** for small design fixes.
 
 #### How to use this service ####
-```
-> git clone https://github.com/AlexanderVikenfalk/WeatherApp.git
-> cd WeatherApp
-> npm install
-> npm start
-> go to: http://localhost:8080/webpack-dev-server/
-```
+1. git clone https://github.com/AlexanderVikenfalk/WeatherApp.git
+2. cd WeatherApp
+3. npm install
+4. npm start
+5. go to: http://localhost:8080/webpack-dev-server/
 
 #### Screenshots ####
 ![Screenshot](![weatherapp](https://user-images.githubusercontent.com/16190870/36734726-aa468c62-1bd4-11e8-8554-a463c47c99a2.PNG))
