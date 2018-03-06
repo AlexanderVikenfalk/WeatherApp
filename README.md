@@ -17,7 +17,7 @@ It's a web app builtwith React.js/ Redux that utilizes the [OpenWeatherMapAPI](h
 5. go to: http://localhost:8080/webpack-dev-server/
 
 #### Screenshots ####
-![capture](https://user-images.githubusercontent.com/16190870/37047914-afbcd398-216c-11e8-87d8-61d8eeaaa9b1.PNG)
+![capture](https://user-images.githubusercontent.com/16190870/37050175-7489b2d0-2173-11e8-98c6-56fb64ea9b7a.PNG)
 
 ### Get in contact with me ###
 [LinkedIn](https://de.linkedin.com/in/alexander-vikenfalk-6b993b42)
