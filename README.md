@@ -1,7 +1,7 @@
 #### Author: Alexander Vikenfalk
 
 #### About this project: 
-It's a web app builtwith React.js/ Redux that utilizes the [OpenWeatherMapAPI](https://openweathermap.org/api/ "Open Weather Map API"). The app will show weather values for your current locatio, such as temperature, humidity, and wind force.
+It's a web app builtwith React.js/ Redux that utilizes the [OpenWeatherMapAPI](https://openweathermap.org/api/ "Open Weather Map API"). The app will show weather values for your current location, such as temperature, humidity, and wind force.
 
 #### Technologies used: 
 * **React.js** for making the nice UI.
